@@ -4,11 +4,11 @@ from bs4 import BeautifulSoup
 import openai
 
 # Set up your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 # API endpoint and parameters
 url = "https://newsapi.org/v2/top-headlines"
-api_key = "9f63bdd3576e46058cb9fd44be15562b"
+api_key = ""
 parameters = {
     "apiKey": api_key,
     "country": "gb",  # Set country to "gb" for the United Kingdom
